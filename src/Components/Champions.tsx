@@ -14,7 +14,7 @@ export const Champions = ({
   selectedChampion,
   changeChampion,
 }: ChampionProps) => {
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<number | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {

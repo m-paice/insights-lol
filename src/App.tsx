@@ -5,7 +5,7 @@ import { Habilities } from "./Components/Habilities";
 import { CurrentHability } from "./Components/CurrentHability";
 import { Changes } from "./Components/Changes";
 import { Champions } from "./Components/Champions";
-import { Actions } from "./Components/Actions";
+// import { Actions } from "./Components/Actions";
 // data
 import { champions, type Champion } from "./data/champions";
 
